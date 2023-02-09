@@ -1,0 +1,72 @@
+.review {
+  margin-top: 226px;
+  margin-bottom: 216px;
+  &-main {
+    width: 100%;
+    background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+    border-radius: 24px;
+    padding: 64px 118px 80px;
+  }
+
+  &-heading {
+    .global-heading--center {
+      color: white;
+      &:before {
+        background-color: white;
+      }
+    }
+  }
+
+  &-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 175px;
+    align-items: center;
+    color: white;
+  }
+
+  &-customer {
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+  }
+
+  &-avatar {
+    width: 141px;
+    height: 141px;
+    flex-shrink: 0;
+
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 100rem;
+      object-fit: cover;
+      border: 4px solid white;
+    }
+  }
+
+  &-infor {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px 0px;
+  }
+
+  &-name {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 218%;
+  }
+
+  &-job {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  &-desc {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 158%;
+    color: rgba(255, 255, 255, 0.9);
+  }
+}
